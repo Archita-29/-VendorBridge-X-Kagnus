@@ -1,0 +1,35 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Editors and operating system
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local database and backups
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
